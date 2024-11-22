@@ -36,6 +36,18 @@ h1{
     letter-spacing: 2px;
     color: #252525;
 }
+#manu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+
+}
+#manu > li {
+    margin-bottom: 1em;
+}
+.red {
+    border-bottom: 1px solid #3a3a3a;
+}
 
 /* Main content */
 main {
