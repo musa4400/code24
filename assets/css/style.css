@@ -21,6 +21,9 @@ body{
 header {
     background-color: lightcoral;
 }
+h1{
+    font-family: sans-serif;
+}
 
 /* Main content */
 main {
