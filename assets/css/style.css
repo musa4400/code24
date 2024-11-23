@@ -77,6 +77,7 @@ nav {
 main {
     background-color: rgb(129, 161, 200);
    flex: 1 0 auto;
+   margin-top: 47px;
 }
 
 /* Footer */
