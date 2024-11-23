@@ -118,5 +118,17 @@ footer {
        
     }
 }
+#net-work{
+    text-align: center;
+    padding: 2px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 
+}
+#net-work i{
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
     
