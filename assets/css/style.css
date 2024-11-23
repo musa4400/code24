@@ -19,7 +19,7 @@ body{
 
 /* Header */
 header {
-    background-color: rgba(246, 248, 249, 0.858);
+    background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -84,3 +84,23 @@ main {
 footer {
     background-color: orange; /* Corrected from 'Dorange' */
 }
+@media screen and ( min-width: 768px){
+    nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+   #manu{
+    display: flex;
+   }
+   #manu > li{
+    padding-left: 1rem;
+   }
+   .nav-toggle-label{
+    display: none;
+   }
+    
+}
+    
