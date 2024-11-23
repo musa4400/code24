@@ -39,13 +39,13 @@ h1{
     letter-spacing: 2px;
     color: #252525;
 }
-#manu {
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 
 }
-#manu > li {
+#menu > li {
     margin-bottom: 1em;
 }
 .red {
@@ -92,15 +92,31 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
-   #manu{
+   #menu{
     display: flex;
    }
-   #manu > li{
+   #menu > li{
     padding-left: 1rem;
    }
    .nav-toggle-label{
     display: none;
    }
+   #logo{
+    font-size:280% ;
+    line-height: 75px;
+    margin: 0 0.5rem;
+   }
+   main{
+    margin-top: 90px;
+   }
     
 }
+
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+       
+    }
+}
+
     
